@@ -2324,11 +2324,11 @@ button:active,
 
 /* Main */
 
-#main {
+#full {
 	margin-left: 375px;
 }
 
-#main>section {
+#full>section {
 	margin: 0;
 	overflow: hidden;
 	padding: 4em 0;
@@ -2337,53 +2337,53 @@ button:active,
 	background-image: url("images/overlay.png");
 }
 
-#main>section.dark {
+#full>section.dark {
 	color: #ddd;
 	color: rgba(255, 255, 255, 0.75);
 }
 
-#main>section.dark h2,
-#main>section.dark h3,
-#main>section.dark h4,
-#main>section.dark h5,
-#main>section.dark h6 {
+#full>section.dark h2,
+#full>section.dark h3,
+#full>section.dark h4,
+#full>section.dark h5,
+#full>section.dark h6 {
 	color: inherit;
 }
 
-#main>section.dark strong {
+#full>section.dark strong {
 	color: #fff;
 	border-color: inherit;
 }
 
-#main>section.dark a {
+#full>section.dark a {
 	color: #fff;
 	border-color: inherit;
 }
 
-#main>section.dark a:hover {
+#full>section.dark a:hover {
 	border-bottom-color: rgba(255, 255, 255, 0);
 }
 
-#main>section.cover {
+#full>section.cover {
 	padding: 10em 0;
 	background-size: cover;
 	background-position: center center;
 }
 
-#main>section.one {
+#full>section.one {
 	background-color: #81918E;
 	background-image: url("../../images/banner.jpg");
 }
 
-#main>section.two {
+#full>section.two {
 	background-color: #f5fafa;
 }
 
-#main>section.three {
+#full>section.three {
 	background-color: #ecf1f1;
 }
 
-#main>section.four {
+#full>section.four {
 	background-color: #e8edec;
 }
 
@@ -2414,7 +2414,7 @@ button:active,
 
 	/* Main */
 
-	#main {
+	#full {
 		margin-left: 300px;
 	}
 
@@ -2426,11 +2426,11 @@ button:active,
 
 	/* Main */
 
-	#main>section {
+	#full>section {
 		padding: 3em 0;
 	}
 
-	#main section.cover {
+	#full section.cover {
 		padding: 5em 0;
 	}
 
@@ -2500,7 +2500,7 @@ button:active,
 
 	/* Main */
 
-	#main {
+	#full {
 		margin-left: 20%;
 	}
 
@@ -2657,7 +2657,7 @@ button:active,
 		line-height: 2.25em;
 	}
 
-	body.header-visible #main {
+	body.header-visible #full {
 		-moz-transform: translateX(275px);
 		-webkit-transform: translateX(275px);
 		-ms-transform: translateX(275px);
@@ -2686,7 +2686,7 @@ button:active,
 
 	/* Main */
 
-	#main {
+	#full {
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -2699,11 +2699,11 @@ button:active,
 		margin-left: 0;
 	}
 
-	#main>section {
+	#full>section {
 		padding: 3em 0;
 	}
 
-	#main section.cover {
+	#full section.cover {
 		padding: 4em 0;
 	}
 
@@ -2741,15 +2741,15 @@ button:active,
 
 	/* Main */
 
-	#main>section {
+	#full>section {
 		padding: 2em 0;
 	}
 
-	#main section.cover {
+	#full section.cover {
 		padding: 4em 0em;
 	}
 
-	#main section.cover header {
+	#full section.cover header {
 		padding: 0 1em;
 	}
 
